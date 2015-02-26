@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Разминка</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_uninstall">Удалить</string>
+    <string name="title_activity_color_game">Цвета</string>
+    <string name="word">word</string>
+    <string name="game_rules">Правила игры</string>
+    <string name="title_activity_color_rules">Правила игры в Цвета</string>
+    <string name="title_activity_shape_game">Фигуры</string>
+    <string name="title_activity_shape_rules">Правила игры в Формы</string>
+    <string name="please_pick_your_game_">Выберите игру:</string>
+    <string name="color_game">ЦВЕТА</string>
+    <string name="high_scores">ЗАЛ СЛАВЫ</string>
+    <string name="shape_game">ФИГУРЫ</string>
+    <string name="color_rules_text">В этой игре два слова появятся на экране. Нужно быстро ответить, совпадает ли ЗНАЧЕНИЕ левого слова с ЦВЕТОМ правого.</string>
+    <string name="blue">СИНИЙ</string>
+    <string name="purple">ФИОЛЕТОВЫЙ</string>
+    <string name="green">ЗЕЛЕНЫЙ</string>
+    <string name="yellow">ЖЕЛТЫЙ</string>
+    <string name="red">КРАСНЫЙ</string>
+    <string name="title_activity_high_scores">Лучшие</string>
+    <string name="title_activity_high_scores_shape">Лучшие</string>
+    <string name="your_score_">"РЕЗУЛЬТАТ: "</string>
+    <string name="main_menu">НА ГЛАВНУЮ</string>
+    <string name="play_again">ИГРАТЬ ЕЩЕ</string>
+    <string name="shape_rules">В этой игре фигуры будут поочередно появляться на экране. Нужно быстро ответить, совпадает ли форма текущей фигуры с формой предыдущей фигуры.</string>
+    <string name="start_the_game">НАЧАТЬ ИГРУ</string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+
+</resources>

@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HighScoresColor" >
+
+    <TextView
+        android:id="@+id/headerHighScoresShape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:background="#33B5E5"
+        android:text="@string/your_score_"
+        android:textColor="@color/WhiteSmoke" />
+
+    <TextView
+        android:id="@+id/hs1Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <TextView
+        android:id="@+id/hs2Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <TextView
+        android:id="@+id/hs3Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <TextView
+        android:id="@+id/hs4Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <TextView
+        android:id="@+id/hs5Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <TextView
+        android:id="@+id/hs6Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <TextView
+        android:id="@+id/hs7Shape"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:text="@string/high_scores"
+        android:textColor="#33B5E5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/hsShapeMainMenu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#33B5E5"
+            android:text="@string/main_menu"
+            android:textColor="@color/WhiteSmoke" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/hsShapePlayAgain"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#33B5E5"
+            android:text="@string/play_again"
+            android:textColor="@color/WhiteSmoke" />
+    </LinearLayout>
+
+</LinearLayout>

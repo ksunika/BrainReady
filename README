@@ -1,0 +1,79 @@
+Brain Ready! project by Kseniya Serbina
+
+FINAL
+
+Accomplished:
+
+Added the Shape game (I called it "match game" previously)
+Added sounds
+Game Rules screens
+Changes all graphic objects to self-made
+
+Concerns:
+For the second game, I pretty much copy-pasted a lot from the first. Probably, there is a better way to reuse the code. 
+Still did not conquer the problem with slider animation (want to make it follow the finger).
+MediaPlayer gives out a weird "Should have subtitle controller already set". Could not find a solution.
+
+Plans:
+Improve scoring (penalties/bonuses).
+Save scores.
+Add Russian language localization.
+Publish the app :)
+
+Thanks for the great class!!
+
+
+Milestone 2
+
+General:
+I focused on game one because for game two I would pretty much reuse most of the stuff, so nothing new for game 2 for now.
+
+Accomplished:
+
+Color game:
+now show 2 words - in order to score, you need to answer if first word meaning is the same as second word color - 1h
+improvements to random algorithm - 30 min
+replaced the buttons by swiping action - 2 days
+investigated onFling() method - 5 h
+investigated ViewFlipper - 5 h
+add pictures - right/wrong - 1h
+orientation change - now saves state - 10 min
+shows score after game is finished (high score not saved yet) - 30 min
+
+miscellaneous:
+thinking about overall layout and implementation - 120 min
+
+used:
+to implement onFling, eventually adapted for myself: http://simprodev.blogspot.com/2012/07/android-swipe-fling.html
+viewflipper: http://www.learn-android-easily.com/2013/06/android-viewflipper-example.html
+pictures: http-//creativecommons.org/licenses/by-nd/3.0/ 
+http://www.icons-land.com/
+
+TODO:
+matching game
+improvements to score counting (penalties for wrong, bonuses for several correct in a row)
+improve the overall look and feel
+add music
+save high scores
+action bar add “rules”
+
+
+Milestone 1
+
+Accomplished:
+
+Created a first iteration of a starting screen:
+two buttons that launch corresponding games - 30 min
+uninstall button at the action bar - 30 min
+
+Color game:
+countdown timer - 50 min
+score counting (to be improved) - 10 min
+TextView that shows the task - 10 min
+implemented random color and random word functionality - 60 min
+buttons that check if the answer is correct (to be replaced by a swiping thingy) - 60 min
+figured out how runnables work - 30 min
+figured out how to do delayed actions - 30 min
+
+miscellaneous:
+thinking about overall layout and implementation - 120 min

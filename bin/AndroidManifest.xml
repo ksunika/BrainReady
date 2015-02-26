@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="play.ksunika.brainready"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="play.ksunika.brainready.MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="play.ksunika.brainready.ColorGame"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_color_game"
+            android:parentActivityName="play.ksunika.brainready.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="play.ksunika.brainready.MainActivity" />
+        </activity>
+        <activity
+            android:name="play.ksunika.brainready.ColorRules"
+            android:label="@string/title_activity_color_rules"
+            android:noHistory="true"
+            android:parentActivityName="play.ksunika.brainready.ColorGame" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="play.ksunika.brainready.ColorGame" />
+        </activity>
+        <activity
+            android:name="play.ksunika.brainready.ShapeGame"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_shape_game"
+            android:parentActivityName="play.ksunika.brainready.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="play.ksunika.brainready.MainActivity" />
+        </activity>
+        <activity
+            android:name="play.ksunika.brainready.ShapeRules"
+            android:label="@string/title_activity_shape_rules"
+            android:noHistory="true"
+            android:parentActivityName="play.ksunika.brainready.ShapeGame" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="play.ksunika.brainready.ShapeGame" />
+        </activity>
+        <activity
+            android:name="play.ksunika.brainready.HighScoresColor"
+            android:label="@string/title_activity_high_scores"
+            android:parentActivityName="play.ksunika.brainready.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="play.ksunika.brainready.MainActivity" />
+        </activity>
+        <activity
+            android:name="play.ksunika.brainready.HighScoresShape"
+            android:label="@string/title_activity_high_scores_shape"
+            android:parentActivityName="play.ksunika.brainready.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="play.ksunika.brainready.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
